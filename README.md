@@ -16,12 +16,14 @@ Cross-Platform Compatibility: Works seamlessly across multiple operating systems
 Customizable Rules: Configure detection rules to meet specific network security needs.
 
 🧩 Snort Architecture
+
 Packet Decoder: Captures network packets for analysis.
 Preprocessor: Normalizes packet data and prepares it for rule inspection.
 Detection Engine: Matches packets against predefined rules to detect threats.
 Logging and Alerting: Records event details and sends real-time alerts.
 
 ⚙️ Rules Structure
+
 Header Rule: Specifies protocol, source/destination IP, and ports.
 Option Rule: Defines additional conditions, like TCP flags or IP headers.
 Metadata Rule: Includes extra information such as author and references.
